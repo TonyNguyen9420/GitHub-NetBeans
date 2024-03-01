@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Informācijas daudzuma mērvienības</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Informācijas daudzuma mērvienība</h1>
+
+    <form>
+        <div><input type="text" name="sk1">GB=</div>
+        <div>
+            <input value="Izteikt megabaitos" name="reiz" onclick="rez.value=sk1.value*1000" type="button"><input name="rez">MB
+        </div>
+      
+      <div><input value="Izteikt mibibaitos" name="reiz" onclick="rez1.value=sk1.value*1000*0.95" type="button"><input name="rez1">MiB</div>
+    </form>
+</body>
+</html>
